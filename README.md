@@ -1,4 +1,5 @@
 # Typeff
+![file cover](./file cover - 1.png)
 The Figma plugin you described is a typing effect plugin that enables users to create dynamic text animations within their Figma designs. It provides three options: typing, deleting, and looping.
 
 With the typing option, users can simulate the effect of text being typed out character by character, creating an animated typing effect. The plugin allows users to customize the typing speed, font, and other properties to achieve the desired effect.
