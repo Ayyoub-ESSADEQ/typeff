@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing..</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css" integrity="sha512-3kSeajrEqMrItwRkYz09bOsHsl4/wpoT6mgw5Aw+eSLweQtX7kZp2P/Dm7hnUg/TrbTGesAgCPwvZpllhuROTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="logo">
+    <svg id="image" width="148" height="134" viewBox="0 0 148 134" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M13 67.5H133L147.5 133.5H0.5L13 67.5Z" fill="#D9D9D9" />
+      <path d="M13 57.5H133L147.5 123.5H0.5L13 57.5Z" fill="#BCB3F0" />
+      <rect x="52.5" y="14.5" width="40" height="55" rx="5" fill="#4D328B" />
+      <rect x="52.5" y="0.5" width="40" height="55" rx="5" fill="#735BD7" />
+      <rect x="57.5" y="55.5" width="30" height="14" fill="#6B43C6" fill-opacity="0.39" />
+      <path
+          d="M64.8295 37.5V35.3097L73.5398 23.0881H64.8125V20.0455H78.1761V22.2358L69.4574 34.4574H78.1932V37.5H64.8295Z"
+          fill="#3B2273" />
+      <rect x="96.5" y="59.5" width="40" height="55" rx="5" fill="#4D328B" />
+      <rect x="96.5" y="45.5" width="40" height="55" rx="5" fill="#735BD7" />
+      <rect x="101.5" y="100.5" width="30" height="14" fill="#6B43C6" fill-opacity="0.39" />
+      <path
+          d="M109.017 83.5V66.0455H120.778V69.0881H112.707V73.2472H120.173V76.2898H112.707V80.4574H120.812V83.5H109.017Z"
+          fill="#3B2273" />
+      <rect x="0.5" y="123.5" width="147" height="10" fill="#AC98DB" />
+      <g filter="url(#filter0_f_86_162)">
+          <path d="M16 65.5H45L48.5 107.5H11.5L16 65.5Z" fill="#4D328B" fill-opacity="0.39" />
+      </g>
+      <g filter="url(#filter1_f_86_162)">
+          <path d="M58 45.5H87L90.5 87.5H53.5L58 45.5Z" fill="#4D328B" fill-opacity="0.39" />
+      </g>
+      <g filter="url(#filter2_f_86_162)">
+          <path d="M102 79.5H131L134.5 121.5H97.5L102 79.5Z" fill="#4D328B" fill-opacity="0.39" />
+      </g>
+      <rect x="8.5" y="42.5" width="40" height="55" rx="5" fill="#4D328B" />
+      <rect x="8.5" y="28.5" width="40" height="55" rx="5" fill="#735BD7" />
+      <rect x="13.5" y="83.5" width="30" height="14" fill="#6B43C6" fill-opacity="0.39" />
+      <path
+          d="M24.0256 66.5H20.071L26.0966 49.0455H30.8523L36.8693 66.5H32.9148L28.5426 53.0341H28.4062L24.0256 66.5ZM23.7784 59.6392H33.1193V62.5199H23.7784V59.6392Z"
+          fill="#3B2273" />
+      <defs>
+          <filter id="filter0_f_86_162" x="2.5" y="56.5" width="55" height="60" filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="4.5" result="effect1_foregroundBlur_86_162" />
+          </filter>
+          <filter id="filter1_f_86_162" x="44.5" y="36.5" width="55" height="60" filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="4.5" result="effect1_foregroundBlur_86_162" />
+          </filter>
+          <filter id="filter2_f_86_162" x="88.5" y="70.5" width="55" height="60" filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="4.5" result="effect1_foregroundBlur_86_162" />
+          </filter>
+      </defs>
+    </svg>
+    <div class="header">
+      <div class="head">Typing Effect</div>
+      <div class="description">Your best way to create typing effect with few clicks</div>
+    </div>
+  </div>
+  <div class="middleArea">
+
+    <div class="input">
+      <div class="label">Content <span style="color:var(--figma-color-icon-danger)">*</span></div>
+      <input id="content" class="inputField" placeholder="Write here.."></input>
+    </div>
+
+    <div class="input">
+      <div class="label">Width <span style="color:var(--figma-color-icon-danger)">*</span></div>
+      <input id="width" class="inputField" type="number" placeholder="Width of the text.."></input>
+    </div>
+
+    <div class="input">
+      <div class="label">Duration <span style="color:var(--figma-color-icon-danger)">*</span></div>
+      <input id="delay" class="inputField" placeholder="in milliseconds" type="number"></input>
+    </div>
+
+    <div class="input">
+      <div class="label">Variant name <span style="color:var(--figma-color-icon-danger)">*</span></div>
+      <input id="variantName" class="inputField" placeholder="name.."></input>
+    </div>
+
+
+    <div class="input" style="height : fit-content !important">
+      <div class="label">Effect type</div>
+      <div class="optionStack">
+        <div class="option" id="0">Typing</div>
+        <div class="option" id="1">Deleting</div>
+        <div class="option" id="2">Looping</div>
+      </div>
+    </div>
+
+    <div id="warning" style="display: none;"><span style="color: var(--figma-color-bg-warning)">@</span> Make sure to fill all the fields</div>
+
+  </div>
+
+  <div class="buttom" id="create">
+    <div id="createTxt">Create</div>
+    <div class="arrow" id="arrow">
+      <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path id="arrow" d="M1.5 7.5L17.5 7.5M17.5 7.5L11.5 1.5M17.5 7.5L11.5 13.5" stroke="white" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </div>
+    <div id="loading">
+      <svg version="1.1" id="L5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+        <circle class="ball" fill="#fff" stroke="none" cx="6" cy="50" r="6">
+          <animateTransform attributeName="transform" dur="1s" type="translate" values="0 15 ; 0 -15; 0 15" repeatCount="indefinite" begin="0.1"></animateTransform>
+        </circle>
+        <circle class="ball" fill="#fff" stroke="none" cx="30" cy="50" r="6">
+          <animateTransform attributeName="transform" dur="1s" type="translate" values="0 10 ; 0 -10; 0 10" repeatCount="indefinite" begin="0.2"></animateTransform>
+        </circle>
+        <circle class="ball" fill="#fff" stroke="none" cx="54" cy="50" r="6">
+          <animateTransform attributeName="transform" dur="1s" type="translate" values="0 5 ; 0 -5; 0 5" repeatCount="indefinite" begin="0.3"></animateTransform>
+        </circle>
+      </svg>
+    </div>
+  </div>
+
+
+  <script defer>
+    const effectTypes = ['typing', "deleting", "looping"];
+    const options = document.getElementsByClassName('option');
+    const warning = document.getElementById('warning');
+    const arrow = document.getElementById('arrow');
+    const create = document.getElementById('createTxt');
+    const loading = document.getElementById('loading');
+    const isClicked = false;
+
+    //The elements that hold the data
+    const contentEle = document.getElementById('content');
+    const widthEle = document.getElementById('width');
+    const delayEle = document.getElementById('delay');
+    const variantEle = document.getElementById('variantName');
+
+    const data = {type : ""};
+  
+    for(const option of options){
+      option.addEventListener('click', picked);
+    }
+    document.getElementById('create').onclick = () => {
+      if (!isClicked){
+        //The data retrieved from the elements
+        const content = contentEle.value;
+        const width = widthEle.value;
+        const delay = Math.round(delayEle.value/content.length);
+        const variantName = variantEle.value;
+
+        data.content = content;
+        data.delay = delay;
+        data.width = width;
+        data.variantName = variantName;
+
+        arrow.parentNode.removeChild(arrow);
+        create.parentNode.removeChild(create);
+        loading.style.display = "block";
+
+        const isAllFilled = (content !== "") && (width !== "") && (delay !== "") && (variantName !== '');
+        if(isAllFilled) {
+          parent.postMessage({ pluginMessage: data }, '*')
+        }else {
+          console.log('Not filled')
+          warning.style.display = "block";
+        }
+      }
+    }
+
+    function picked(event){
+      const target = event.target;
+      const effect = effectTypes[parseInt(target.id)];
+      data.type = effect;
+
+      target.style.backgroundColor = "var(--figma-color-bg-component-pressed)";
+      target.style.color = "white";
+
+      for(let i = 0; i<3; i++){
+        const option = document.getElementById(`${i}`);
+        if(option.id !== target.id){
+          option.style.backgroundColor = "var(--figma-color-bg-component-tertiary)";
+          option.style.color = "var(--figma-color-text)";
+        }
+      }
+    }
+
+  </script>
+
+
+
+ <style>
+
+  body{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap : 23px;
+    font-family: inter;
+    color : var(--figma-color-text)
+  }
+
+  #warning{
+    font-size: 10px;
+    color : var(--figma-text-color);
+  }
+
+  #image{
+    margin-bottom: 12px;
+  }
+
+
+
+  .logo, .header{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 6px;
+  }
+
+  .logo{
+    margin-top : 40px;
+  }
+
+  .header{
+    gap : 3px !important;
+  }
+
+  .head{
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .description{
+    width : 160px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    margin: 0;
+    height: 0;
+  }
+
+  #create{
+    position: fixed;
+    bottom : 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height : 50px;
+    width : 264px;
+    background-color: #735BD7 /*var(--figma-color-bg-inverse)*/;
+    color: white;
+    border-radius: 8px;
+    font-family: inter;
+    column-gap : 6px;
+    font-size: 15px;
+    cursor : pointer;
+    user-select: none;
+
+  }
+
+  .middleArea{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .input{
+    display : flex;
+    flex-direction: column;
+    border-style: solid;
+    width : 264px;
+    height : 40px;
+    border-radius: 6px;
+    border-width: 0.7px;
+    border-color: var(--figma-color-border-disabled);
+    box-shadow: 0px 0px 2px rgba(168, 168, 168, 0.41);
+    overflow: hidden;
+    padding: 5px;
+  }
+
+  .label{
+    font-family: inter;
+    font-size: 10px;
+    color : var(--figma-color-text-secondary)
+  }
+
+  .inputField{
+    outline: none;
+    border-style: none;
+    width : 100%;
+    flex-grow: 1;
+    background-color: var(--figma-bg-color);
+    font-family: inter;
+    color : var(--figma-text-color)
+  }
+
+  .inputField :focus{
+    outline: none;
+    border-style: none;
+    background-color: var(--figma-color-bg-selected);
+
+  }
+
+  .inputField::placeholder{
+    color : var(--figma-color-text-tertiary);
+  }
+
+  .input:focus-within{
+    border-color: var(--figma-color-border-brand-strong);
+  }
+
+  .arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height : 24px;
+    width : 24px;
+  }
+
+  #arrow{
+    stroke : white;
+  }
+
+
+  #loading{
+    height : 30px;
+    width : 30px;
+    user-select: none;
+    display: none;
+  }
+
+  .ball{
+    fill:white;
+  }
+
+  .optionStack{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4px;
+  }
+
+  .option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size : 10px;
+    color : var(--figma-text-color);
+    width : 74px;
+    height : 30px;
+    background-color: var(--figma-color-bg-component-tertiary);
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(174, 174, 174);
+    user-select: none;
+  }
+
+  .option:hover {
+    border-color: var(--figma-color-border-component-hover);
+    cursor: pointer;
+  }
+
+ </style>
+</body>
+</html>
+
